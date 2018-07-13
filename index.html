@@ -1,41 +1,51 @@
 <!DOCTYPE html>
-<html lang="it">
-
-  <head>
-    <title> Francesca Fazzini - RIACE villaggio globale </title>
-    <link rel="stylesheet" type="text/css" href="stili.css">
-    <link type="text/javascript" href="script.js">
-  </head>
-
-  <body>
-    <div id="slideshow">
-	     <div id="slideshow-wrapper">
-		   <img src="0.svg" alt="" />
-		   <img src="1.svg" alt="" />
-		   <img src="2.svg" alt="" />
-       <img src="3.svg" alt="" />
-       <img src="4.svg" alt="" />
-       <img src="5.svg" alt="" />
-       <img src="6.svg" alt="" />
-       <img src="7.svg" alt="" />
-       <img src="8.svg" alt="" />
-       <img src="9.svg" alt="" />
-       <img src="10.svg" alt="" />
-       <img src="11.svg" alt="" />
-       <img src="12.svg" alt="" />
-       <img src="13.svg" alt="" />
-       <img src="14.svg" alt="" />
-       <img src="15.svg" alt="" />
-       <img src="16.svg" alt="" />
-       <img src="17.svg" alt="" />
-	     </div>
-    </div>
+<html>
+<title>Riace-villaggio gobale</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="file.css">
+<body>
 
 
-  </body>
+<div class="w3-content w3-section" style="max-width:100%">
 
 
+  <img class="mySlides w3-animate-fading" src="00.svg" style="width:100%">
+  <img class="mySlides w3-animate-fading" src="1.svg" style="width:100%">
+  <img class="mySlides w3-animate-fading" src="2.svg" style="width:100%">
+  <!-- immagine 3 eliminata -->
+  <img class="mySlides w3-animate-fading" src="4.svg" style="width:100%">
+  <img class="mySlides w3-animate-fading" src="5.svg" style="width:100%">
+  <img class="mySlides w3-animate-fading" src="6.svg" style="width:100%">
+  <img class="mySlides w3-animate-fading" src="7.svg" style="width:100%">
+  <img class="mySlides w3-animate-fading" src="8.svg" style="width:100%">
+  <img class="mySlides w3-animate-fading" src="9.svg" style="width:100%">
+  <img class="mySlides w3-animate-fading" src="10.svg" style="width:100%">
+  <img class="mySlides w3-animate-fading" src="11.svg" style="width:100%">
+  <img class="mySlides w3-animate-fading" src="12.svg" style="width:100%">
+  <img class="mySlides w3-animate-fading" src="13.svg" style="width:100%">
+  <img class="mySlides w3-animate-fading" src="14.svg" style="width:100%">
+  <img class="mySlides w3-animate-fading" src="15.svg" style="width:100%">
+  <img class="mySlides w3-animate-fading" src="16.svg" style="width:100%">
+  <img class="mySlides w3-animate-fading" src="17.svg" style="width:100%">
 
+</div>
 
+<script>
+var myIndex = 0;
+carousel();
 
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 9000);
+}
+</script>
+
+</body>
 </html>
