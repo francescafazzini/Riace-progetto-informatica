@@ -4,7 +4,7 @@ h1 {
 	font-size: 25px;
 	font-style: normal;
 	font-variant: normal;
-	font-weight: 400;
+	font-weight: 500;
 	line-height: 33px;
 }
 h2 {
@@ -15,12 +15,20 @@ h2 {
 	font-weight: 300;
 	line-height: 33px;
 }
+h3 {
+	font-family: Raleway;
+	font-size: 20px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 33px;
+}
 p {
 	font-family: Raleway;
 	font-size: 14px;
 	font-style: normal;
 	font-variant: normal;
-	font-weight: 400;
+	font-weight: 300;
 	line-height: 20px;
 }
 a {
@@ -47,7 +55,23 @@ pre {
 	font-weight: 400;
 	line-height: 18.5714px;
 }
+br {
+  line-height: 13px;
+}
 .flex {
   max-width:100%;
   margin:0px;
+}
+
+#col11 {
+width: 50%;
+float: left;
+text-align:justify;
+}
+#col21 {
+width: 50%;
+float: right;
+text-align:justify;
+margin: 0;
+padding: 0;
 }
