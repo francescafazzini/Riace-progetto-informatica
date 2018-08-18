@@ -1,77 +1,13 @@
 
-h1 {
-	font-family: Raleway;
-	font-size: 25px;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 600;
-	line-height: 33px;
-}
-h2 {
-	font-family: Raleway;
-	font-size: 15px;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 350;
-	line-height: 33px;
-}
-h3 {
-	font-family: Raleway;
-	font-size: 20px;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 500;
-	line-height: 33px;
-}
-p {
-	font-family: Raleway;
-	font-size: 14px;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 300;
-	line-height: 20px;
-}
-a {
-	font-family: Raleway;
-	font-size: 14px;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 400;
-	line-height: 20px;
-}
-blockquote {
-	font-family: Raleway;
-	font-size: 21px;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 400;
-	line-height: 30px;
-}
-pre {
-	font-family: Raleway;
-	font-size: 13px;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 400;
-	line-height: 18.5714px;
-}
-br {
-  line-height: 13px;
-}
-.flex {
-  max-width:100%;
-  margin:0px;
-}
-
-#col11 {
-width: 50%;
-float: left;
-text-align:justify;
-}
-#col21 {
-width: 50%;
-float: right;
-text-align:justify;
-margin: 0;
-padding: 0;
+#top-header {
+    background-image: url(top.png);
+		background-repeat: no-repeat;
+    background-position: 0 0;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+	}
+#loghi {
+	max-width: 100px;
+	max-height: 100px;
 }
