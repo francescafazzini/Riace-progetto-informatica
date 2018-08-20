@@ -7,7 +7,13 @@
     -webkit-background-size: cover;
     background-size: cover;
 	}
-#loghi {
-	max-width: 100px;
-	max-height: 100px;
-}
+
+
+  #footer {
+      background-image: url(top.png);
+  		background-repeat: no-repeat;
+      background-position: 0 0;
+      -moz-background-size: cover;
+      -webkit-background-size: cover;
+      background-size: cover;
+  	}
