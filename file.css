@@ -15,9 +15,9 @@ h1 {
   font-style: normal;
   font-weight: normal;
   font-size: 50px;
-  margin-left: 300px;
-  margin-right: 300px;
-  text-align: center;
+  margin-left: 25%;
+  margin-right: 25%;
+  text-align:center;
 
 }
 h2 {
@@ -25,9 +25,9 @@ h2 {
   font-style: normal;
   font-weight: normal;
   font-size: 25px;
-  margin-left: 300px;
-  margin-right: 300px;
-  text-align: center;
+  margin-left: 25%;
+  margin-right: 25%;
+  text-align:center;
 
 }
 p {
@@ -35,7 +35,7 @@ p {
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
-  text-align: center;
+  text-align: justify;
 
 }
 #footer{
