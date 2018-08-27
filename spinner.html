@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" http-equiv="refresh" content="5;URL=menu.html">
+<title>loading...</title>
+<link rel="stylesheet" href="file.css" type="text/css">
+<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Raleway" />
+<style>
+
+@keyframes scaling {
+  0%{transform:scale(0); opacity:0.5}
+  100%{transform:scale(1)}
+}
+@keyframes rotation {
+  0%{transform:rotate(0deg)}
+  100%{transform:rotate(360deg)}
+}
+
+body{
+  background-color: #99e9ed;
+}
+.spinner{
+  animation: rotation 2s infinite linear;
+  position:absolute;
+  top:50%;
+  left:45%;
+  align-items: center;
+
+
+
+}
+.dot{
+  animation: scaling 1s infinite alternate ease-in-out;
+  height:40px;
+  width:40px;
+  background-color:white;
+  display:inline-block;
+  margin:10px;
+  border-radius:50%;
+}
+.due{
+  animation-delay:1s;
+}
+</style>
+</head>
+
+<body leftmargin="0" topmargin="0" rightmargin="0" bottommargin="0">
+  <div class="spinner">
+  <div class="dot uno"></div>
+  <div class="dot due"></div>
+  </div>
+
+
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
