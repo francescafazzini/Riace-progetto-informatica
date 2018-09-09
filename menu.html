@@ -5,33 +5,53 @@
 <title>RIACE villaggio globale</title>
 <link rel="stylesheet" href="file.css" type="text/css">
 <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Raleway" />
+<script type="text/javascript" src="<br> http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<style>
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 3s;
+  animation-name: fade;
+  animation-duration: 3s;
+}
+@-webkit-keyframes fade {
+  from {opacity: 0}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: 0}
+  to {opacity: 1}
+}
+
+</style>
 </head>
 
 <body leftmargin="0" topmargin="0" rightmargin="0" bottommargin="0">
 
 
 
-<!--pagina-->
-<div  onload="downLoad()">
-<!--top header con info-->
-<div id="top-header" class="">
-  <div style="text-align:center">
-    <a href="https://www.instagram.com/fazzesca/" target="_blank" > <img src="insta.png" style="max-width:5%;max-height:5%;" /></a>
-    <a href="https://www.facebook.com/francesca.fazzini.54" target="_blank" > <img src="face.png" style="max-width:5%;max-height:5%;" /></a>
-    <a href="mailto:francesca180998@gmail.com" target="_blank" > <img src="mail.png" style="max-width:5%;max-height:5%;" /> </a>
 
+<!--fisso-->
+<div id="fisso">
+<!--top header con info-->
+<div id="top-header" class="" style="max-width:100%">
+  <div style="text-align:center">
+    <a href="https://www.instagram.com/fazz_esca/" target="_blank" > <img src="insta.png" class="dimensione" style="max-width:3%;max-height:3%;" /></a>
+    <a href="https://www.facebook.com/francesca.fazzini.54" target="_blank" > <img src="face.png" class="dimensione" style="max-width:3%;max-height:3%;" /></a>
+    <a href="mailto:francesca180998@gmail.com" target="_blank" > <img src="mail.png" class="dimensione" style="max-width:3%;max-height:3%;" /> </a>
   </div>
 </div>
-
-
+</div>
+<br></br><br></br>
 
 <!--header-->
 <header style="text-align:center">
-  <div style="text-align:center"><a> <img class="flex" src="logo.svg" style="max-width:60%;max-height:auto" ></a></div>
+  <div style="text-align:center; width:100%; height:auto"><a> <img id="logo" src="logo.svg" class="fade" style="max-width:50%;max-height:auto" ></a></div>
 </header>
 
+
 <!--riga1-->
-<div id="riga1" class="" style="text-align:center">
+<div id="riga1" class="fade" style="text-align:center">
 
 <!--titolo1-->
   <a href="1.html"> <img src="maschera1.png" name="img1"  style="max-width:30%;max-height:auto;"
@@ -56,7 +76,7 @@
 </div>
 
 <!--riga2-->
-<div id="riga2" class="" style="text-align:center">
+<div id="riga2" class="fade" style="text-align:center">
 
 <!--titolo4-->
   <a href="1.html"> <img src="maschera4.png" name="img4"  style="max-width:30%;max-height:auto;"
@@ -84,10 +104,13 @@
 <div > <img src="asino.png" name="img" style="max-width:75%;max-height:auto;">
 <!--torna e cosa sto..-->
 
-    <a href="index.html"> <img src="TORNA.png" style="max-width:10%"></a>
-    <a href="cosa.html"> <img src="cosa.png" style="max-width:10%"></a>
+    <a href="index.html"> <img src="TORNA.png" class="dimensione" style="max-width:10%"></a>
+    <a href="cosa.html"> <img src="cosa.png" class="dimensione" style="max-width:10%"></a>
 </div>
-</div>
+
+
+
+
 
 
 

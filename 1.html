@@ -5,28 +5,51 @@
 <title>Il paese dell'accoglienza</title>
 <link rel="stylesheet" href="file.css" type="text/css">
 <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Raleway" />
-<script type="text/javascript" src="script.js"></script>
+<script type="text/javascript" src="<br> http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<style>
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 3s;
+  animation-name: fade;
+  animation-duration: 3s;
+}
+@-webkit-keyframes fade {
+  from {opacity: 0}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: 0}
+  to {opacity: 1}
+}
+
+</style>
 </head>
 
 <body leftmargin="0" topmargin="0" rightmargin="0" bottommargin="0">
+<div id="fisso">
 <!--top header con info-->
 <div id="top-header" class="">
   <div style="text-align:center">
-    <a href="https://www.instagram.com/fazzesca/" target="_blank" > <img src="insta.png" style="max-width:5%;max-height:5%;" /></a>
-    <a href="https://www.facebook.com/francesca.fazzini.54" target="_blank" > <img src="face.png" style="max-width:5%;max-height:5%;" /></a>
-    <a href="mailto:francesca180998@gmail.com" target="_blank" > <img src="mail.png" style="max-width:5%;max-height:5%;" /> </a>
+    <a href="https://www.instagram.com/fazz_esca/" target="_blank" > <img src="insta.png" class="dimensione" style="max-width:3%;max-height:3%;" /></a>
+    <a href="https://www.facebook.com/francesca.fazzini.54" target="_blank" > <img src="face.png" class="dimensione" style="max-width:3%;max-height:3%;" /></a>
+    <a href="mailto:francesca180998@gmail.com" target="_blank" > <img src="mail.png" class="dimensione" style="max-width:3%;max-height:3%;" /> </a>
 
   </div>
 </div>
+</div>
+<br></br><br></br><br></br>
 
 
 <!--header-->
 <header>
-  <div style="text-align:center"><a href="index.html"> <img class="flex" src="logo.png" style="max-width:45%;max-height:auto" ></a></div>
+  <div style="text-align:center"> <img class="fade" src="logo.png" id="logo" style="max-width:40%;max-height:auto" ></div>
 </header>
 
+
+
 <!--testo-->
-<div>
+<div class="fade">
 <h1>Il paese dell’accoglienza</h1>
 <h2>Cos’è il “Modello Riace” ?<h2>
   <br></br>
@@ -39,8 +62,9 @@ dei rifugiati in Europa“.</p>
 </div>
 <br></br>
 <div style="text-align: center">
-<a href="menu.html" > <img src="menu.png" style="max-width:30%; max-height:30%"</a>
+<a href="menu.html" > <img src="menu.png" class="dimensione" style="max-width:30%; max-height:30%"</a>
 </div>
+
 
 
 
